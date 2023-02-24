@@ -29,6 +29,13 @@ Answer: `r fitb(6)` components
 Use `wine.pca$sdev` to find the standard deviation and thus the variance of each PC. 
 `r unhide()`
 
+`r hide("Solution")`
+```{r}
+wine.pca$sdevˆ2>0.6
+```
+Since there are six TRUE values, we select six components.
+`r unhide()`
+
 **Task 4**
 
 Looking at the loadings of the PCA, how would you interpret the third principal component? 
