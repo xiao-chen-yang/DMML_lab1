@@ -35,15 +35,7 @@ Use `wine.pca$sdev` to find the standard deviation and thus the variance of each
 
 **Task 4**
 
-`r hide("Solution")`
-Although there are a large number of positive and negative non-zero loadings, the really dominant ones in terms of size (approximately 0.6) are ash and alcalinity of ash, so this component mainly seems to be interested in ash and its properties in wine.
-`r unhide()`
-
 Looking at the loadings of the PCA, how would you interpret the third principal component? 
-
-```{r}
-wine.pca$loadings[,1:6]
-```
 
 **Task 5**
 
